@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+a {
+    display: inline;
+    color: white;
+    margin: 0 1em;
+    text-decoration: none;
+}
+ .sign in::after{
+    content: '';
+    display: inline-block;
+    width: 0%;
+    height: 2px;
+    transition: 0.5s;
+    margin: 0%;
+    color: aqua;
+}
+ header a::after:hover{
+    width: 100%;
+}
+
+
+section {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1em;
+    background-color: #333;
+    color: white;
+}

@@ -1,0 +1,9 @@
+header{
+    background-color: green;
+    text-shadow: 50%;
+    color: aliceblue;
+    text-align: center;
+}
+body{
+    background:linear-gradient( green,grey);
+}
